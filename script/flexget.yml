@@ -1,0 +1,54 @@
+schedules:
+  - tasks: 'tv-shows'
+    interval:
+      minutes: 2 
+
+tasks:
+  tv-shows:
+    headers:
+      User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1"
+    rss: https://eztv.ag/ezrss.xml
+    transmission: yes
+    series:
+      - South park:
+          quality: hdtv
+      - Greys anatomy:
+          quality: hdtv
+      - The Big Bang Theory:
+          quality: hdtv
+      - The Walking Dead:
+          quality: 720p
+      - Game of Thrones:
+          quality: 720p
+      - Suburgatory:
+          quality: hdtv
+      - Homeland:
+          quality: 720p
+      - American Horror Story:
+          quality: 720p
+      - Arrow:
+          quality: 720p
+      - Siberia:
+          quality: hdtv
+      - Under the dome:
+          quality: 720p
+      - The Blacklist:
+          quality: hdtv
+      - Revolution:
+          quality: hdtv
+      - Vikings:
+          quality: hdtv
+      - Helix:
+          quality: 720p
+      - True Detective:
+          quality: hdtv
+      - The 100:
+          quality: 720p
+      - Musketers:
+          quality: hdtv
+      - Reign:
+          quality: hdtv
+      - Gotham:
+          quality: hdtv
+      - Westworld:
+          quality: 720p
